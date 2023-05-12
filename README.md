@@ -11,7 +11,9 @@ Tools included:
 - [Xdebug](https://xdebug.org/).
 
 ## WPCLI
-To run `wp` commands, first `su wp_php`, so as not to use root. Then run `wp ...` command like usual.
+To run `wp` commands, use the `wp_php` user.
+E.g. if the container is named `du-wordpress-develop-php-1`, do:
+`docker exec -u wp_php du-wordpress-develop-php-1 wp help`
 
 ## Xdebug
 Xdebug is enabled by default.
