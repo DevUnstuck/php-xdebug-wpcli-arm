@@ -1,5 +1,5 @@
 # PHP image including WPCLI & Xdebug - devunstuck/php-xdebug-wpcli-arm
-FROM --platform=linux/arm64 php:8.0-fpm
+FROM --platform=linux/arm64 php:8.1-fpm
 RUN docker-php-ext-install mysqli
 
 # Install less for wpcli and vim for modding configs
