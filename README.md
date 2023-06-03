@@ -1,6 +1,6 @@
-# PHP Xdebug WPCLI ARM
+# WP Docker Dev For Apple Silicon
 
-This recipe builds a WordPress debugging ready flavor of PHP - ([devunstuck / php-xdebug-wpcli-arm](https://hub.docker.com/repository/docker/devunstuck/php-xdebug-wpcli-arm)).
+This Dockerfile creates an image geared towards WordPress debugging - ([devunstuck / wp-docker-dev-apple-si](https://hub.docker.com/repository/docker/devunstuck/wp-docker-dev-apple-si)).
 
 It is based on [php - Official Image](https://hub.docker.com/_/php), and can be used in similar fashion.
 
